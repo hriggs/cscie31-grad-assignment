@@ -1,0 +1,26 @@
+{
+  "name": "cscie31-grad-assignment",
+  "version": "1.0.0",
+  "description": "CSCI E-31 Graduate Assignment.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/www",
+    "start-dev": "nodemon --inspect ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hriggs/cscie31-grad-assignment"
+  },
+  "author": "Hannah Riggs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hriggs/cscie31-grad-assignment/issues"
+  },
+  "homepage": "https://github.com/hriggs/cscie31-grad-assignment#readme",
+  "dependencies": {
+    "dotenv": "^5.0.1",
+    "express": "^4.16.2",
+    "mongoose": "^5.0.10"
+  }
+}
