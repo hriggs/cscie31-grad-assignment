@@ -24,4 +24,5 @@ To set up this practice set, students must follow the following steps:
 2. Run: npm install
 3. Create a .env file with their database credentials.
 4. Change the mongoDB connection string in app.js to use their own database. 
-5. Run with: npm run start-dev
+5. Write callback and promise code in app.js
+6. Run with: npm run start-dev
